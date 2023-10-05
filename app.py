@@ -9,8 +9,8 @@ warnings.filterwarnings("ignore")
 
 
 st.set_page_config(
-    page_title="Skin Leaf Disease Detection",
-    page_icon = ":Skin:",
+    page_title="Skin Disease Detection",
+    page_icon = "🧑‍⚕️",
     initial_sidebar_state = 'auto'
 )
 hide_streamlit_style = """
@@ -30,8 +30,8 @@ def prediction_cls(prediction):
 
 with st.sidebar:
         st.image('mg.png')
-        st.title("Mangifera Healthika")
-        st.subheader("Accurate detection of diseases present in the Skin leaves. This helps an user to easily detect the disease and identify it's cause.")
+        st.title("Dermatrix")
+        st.subheader("Accurate detection of skin diseases present with suggestion of remedies to cure them.")
 
              
         
