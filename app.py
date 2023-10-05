@@ -8,11 +8,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-st.set_page_config(
-    page_title="Skin Leaf Disease Detection",
-    page_icon = ":Skin:",
-    initial_sidebar_state = 'auto'
-)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
