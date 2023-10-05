@@ -1,5 +1,5 @@
 streamlit==1.11.1
 tensorflow-cpu
 Pillow==10.0.1
-numpy==1.19.5
+numpy==1.22.0
 protobuf
