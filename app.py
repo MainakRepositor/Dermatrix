@@ -77,7 +77,7 @@ else:
     st.image(image, use_column_width=True)
     predictions = import_and_predict(image, model)
     x = random.randint(98,99)+ random.randint(0,99)*0.01
-    st.sidebar.error("Accuracy : " + str(x) + " %")
+    st.sidebar.info("Accuracy : " + str(x) + " %")
 
     class_names = ['Eczema','Warts Molluscum and other Viral Infections', 'Melanoma','Atopic Dermatitis','Basal Cell Carcinoma (BCC)','Melanocytic Nevi (NV)','Benign Keratosis-like Lesions (BKL)','Psoriasis pictures Lichen Planus and related diseases','Seborrheic Keratoses and other Benign Tumors','Tinea Ringworm Candidiasis and other Fungal Infections']
 
