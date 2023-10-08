@@ -63,8 +63,7 @@ st.write("""
 file = st.file_uploader("", type=["jpg", "png"])
 def import_and_predict(image_data, model):
         size = (300,300)    
-        image = ImageOps.fit(image_data, size, Image.Resampling.LANCZOS)
-        image = image.reshape(None,300,300,3)
+        image = ImageOps.fit(image_data, size, Image.LANCZOS)
         img = np.asarray(image)
         img_reshape = img[np.newaxis,...]
         prediction = model.predict(img_reshape)
